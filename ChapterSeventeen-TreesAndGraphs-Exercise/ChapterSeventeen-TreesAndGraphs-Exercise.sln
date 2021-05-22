@@ -3,23 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicTree", "DynamicTree\DynamicTree.csproj", "{9F21A96B-CCA2-4239-9A79-894A65E49553}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicTree", "DynamicTree\DynamicTree.csproj", "{9F21A96B-CCA2-4239-9A79-894A65E49553}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryTraverserDFS", "DirectoryTraverserDFS\DirectoryTraverserDFS.csproj", "{CAF3EEC4-9DE1-4FEA-B7D6-4BD720A191D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectoryTraverserDFS", "DirectoryTraverserDFS\DirectoryTraverserDFS.csproj", "{CAF3EEC4-9DE1-4FEA-B7D6-4BD720A191D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryTraverserBFS", "DirectoryTraverserBFS\DirectoryTraverserBFS.csproj", "{25E5C371-735B-495F-B96D-3DEF90F82613}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectoryTraverserBFS", "DirectoryTraverserBFS\DirectoryTraverserBFS.csproj", "{25E5C371-735B-495F-B96D-3DEF90F82613}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeExample", "BinaryTreeExample\BinaryTreeExample.csproj", "{A1ECE0F6-29F6-441C-B5BB-34005CA40742}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreeExample", "BinaryTreeExample\BinaryTreeExample.csproj", "{A1ECE0F6-29F6-441C-B5BB-34005CA40742}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTreeExample", "BinarySearchTreeExample\BinarySearchTreeExample.csproj", "{4863E6FE-1BAD-4B99-A9C9-A51E061A3C27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchTreeExample", "BinarySearchTreeExample\BinarySearchTreeExample.csproj", "{4863E6FE-1BAD-4B99-A9C9-A51E061A3C27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphExample", "GraphExample\GraphExample.csproj", "{F56B0186-BAA3-4811-B77D-B0FEE1D946C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphExample", "GraphExample\GraphExample.csproj", "{F56B0186-BAA3-4811-B77D-B0FEE1D946C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.FindNumMatches", "01.FindNumMatches\01.FindNumMatches.csproj", "{E7A316C5-B3C3-4F5E-AAB3-86F8685237B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.FindNumMatches", "01.FindNumMatches\01.FindNumMatches.csproj", "{E7A316C5-B3C3-4F5E-AAB3-86F8685237B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.PrintRootsWithKVertices", "02.PrintRootsWithKVertices\02.PrintRootsWithKVertices.csproj", "{A6435DC6-BB31-4DDA-9FB1-6223686A791B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.PrintRootsWithKVertices", "02.PrintRootsWithKVertices\02.PrintRootsWithKVertices.csproj", "{A6435DC6-BB31-4DDA-9FB1-6223686A791B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.FindLeafsAndInterVertices", "03.FindLeafsAndInterVertices\03.FindLeafsAndInterVertices.csproj", "{8E2527F0-4BC6-46E7-A8DD-F55A849F9531}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.FindLeafsAndInterVertices", "03.FindLeafsAndInterVertices\03.FindLeafsAndInterVertices.csproj", "{8E2527F0-4BC6-46E7-A8DD-F55A849F9531}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.BTVerticesSum", "04.BTVerticesSum\04.BTVerticesSum.csproj", "{D18A9963-FCDA-4660-92D4-65C49A9420C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.BTVerticesOnlyL", "05.BTVerticesOnlyL\05.BTVerticesOnlyL.csproj", "{24827619-0860-4034-9CC8-D066EC852613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.BalancedBTCheck", "06.BalancedBTCheck\06.BalancedBTCheck.csproj", "{4F866276-BEEB-4E92-921B-88025BDE4BFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.GraphShortestW", "07.GraphShortestW\07.GraphShortestW.csproj", "{86297775-1950-45B8-A93C-B5FD82EF614B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +71,22 @@ Global
 		{8E2527F0-4BC6-46E7-A8DD-F55A849F9531}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E2527F0-4BC6-46E7-A8DD-F55A849F9531}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E2527F0-4BC6-46E7-A8DD-F55A849F9531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D18A9963-FCDA-4660-92D4-65C49A9420C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18A9963-FCDA-4660-92D4-65C49A9420C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18A9963-FCDA-4660-92D4-65C49A9420C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18A9963-FCDA-4660-92D4-65C49A9420C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24827619-0860-4034-9CC8-D066EC852613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24827619-0860-4034-9CC8-D066EC852613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24827619-0860-4034-9CC8-D066EC852613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24827619-0860-4034-9CC8-D066EC852613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F866276-BEEB-4E92-921B-88025BDE4BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F866276-BEEB-4E92-921B-88025BDE4BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F866276-BEEB-4E92-921B-88025BDE4BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F866276-BEEB-4E92-921B-88025BDE4BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86297775-1950-45B8-A93C-B5FD82EF614B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86297775-1950-45B8-A93C-B5FD82EF614B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86297775-1950-45B8-A93C-B5FD82EF614B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86297775-1950-45B8-A93C-B5FD82EF614B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
