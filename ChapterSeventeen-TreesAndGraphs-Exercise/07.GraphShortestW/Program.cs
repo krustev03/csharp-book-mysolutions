@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace _07.GraphShortestW
 {
@@ -16,34 +17,86 @@ namespace _07.GraphShortestW
             new List<int>() {1, 2, 3},
         });
 
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Connected graph components: ");
-
-            for (int v = 0; v < graph.Size; v++)
-            {
-                if (!visited[v])
-                {
-                    TraverseDFS(v);
-                    Console.WriteLine();
-                }
-            }
+            FindShortestWay(1, 3);
         }
 
-        static bool[] visited = new bool[graph.Size];
-
-        static void TraverseDFS(int v)
+        static void FindShortestWay(int s, int e)
         {
-            if (!visited[v])
-            {
-                Console.Write(v + " ");
-                visited[v] = true;
+            var prev = BFS(s);
 
-                foreach (int child in graph.GetSuccessors(v))
+            var result = ReconstructPath(s, e, prev);
+
+            foreach (var item in result)
+            {
+                Console.Write(item + "-");
+            }
+            Console.Write(e);
+        }
+
+        static int?[] BFS(int s)
+        {
+            Queue<int> queue = new Queue<int>();
+            queue.Enqueue(s);
+
+            bool[] visited = new bool[graph.Size];
+            visited[s] = true;
+
+            int?[] prev = new int?[graph.Size];
+
+            for (int i = 0; i < prev.Length; i++)
+            {
+                prev[i] = null;
+            }
+
+            while (queue.Any())
+            {
+                int node = queue.Dequeue();
+
+                var neighbours = graph.GetSuccessors(node);
+
+                foreach (var neighbour in neighbours)
                 {
-                    TraverseDFS(child);
+                    if (!visited[neighbour])
+                    {
+                        queue.Enqueue(neighbour);
+                        visited[neighbour] = true;
+                        prev[neighbour] = node;
+                    }
                 }
             }
+
+            return prev;
+        }
+
+        static List<int?> ReconstructPath(int s, int e, int?[] prev)
+        {
+            var path = new List<int?>();
+
+            for (int? i = e; i != null;)
+            {
+                int j = (int)i;
+                if (prev[j] != null)
+                {
+                    path.Add(prev[j]);
+                    i = prev[j];
+                }
+                if (prev[j] == null)
+                {
+                    break;
+                }
+            }
+
+            path.Reverse();
+
+            if (path[0] == s)
+            {
+                return path;
+            }
+
+            return new List<int?>();
         }
     }
 }
