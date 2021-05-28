@@ -31,15 +31,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.GraphShortestW", "07.Gra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.IsGraphCyclic", "08.IsGraphCyclic\08.IsGraphCyclic.csproj", "{529EF22B-238C-4505-8857-778B9F928725}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.JustDFS", "09.JustDFS\09.JustDFS.csproj", "{B7B2D958-D65D-48DF-9737-BB6FA9DAA1C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.JustDFS", "09.JustDFS\09.JustDFS.csproj", "{B7B2D958-D65D-48DF-9737-BB6FA9DAA1C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.JustBFS", "10.JustBFS\10.JustBFS.csproj", "{7F8FB042-7B8E-4AAB-A287-191BA1856323}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.JustBFS", "10.JustBFS\10.JustBFS.csproj", "{7F8FB042-7B8E-4AAB-A287-191BA1856323}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.TraverseWindows", "11.TraverseWindows\11.TraverseWindows.csproj", "{F916B6C9-F6DC-4261-80C3-1753545FEA09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.TraverseWindows", "11.TraverseWindows\11.TraverseWindows.csproj", "{F916B6C9-F6DC-4261-80C3-1753545FEA09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.FileTree", "12.FileTree\12.FileTree.csproj", "{7AB0A608-A29C-4C62-8372-ECC567C7B9EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12.FileTree", "12.FileTree\12.FileTree.csproj", "{7AB0A608-A29C-4C62-8372-ECC567C7B9EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.FindAllCycles", "13.FindAllCycles\13.FindAllCycles.csproj", "{CC6647D4-B66F-4CCF-A379-13C9E08B9C72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13.FindAllCycles", "13.FindAllCycles\13.FindAllCycles.csproj", "{CC6647D4-B66F-4CCF-A379-13C9E08B9C72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14.ConnectedComps", "14.ConnectedComps\14.ConnectedComps.csproj", "{EB7B846C-872D-4DB7-BEDD-1EE455023F6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15.MinPaths", "15.MinPaths\15.MinPaths.csproj", "{38407ADA-6918-4758-B691-16940962C5F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.NTasks", "16.NTasks\16.NTasks.csproj", "{672EB1DC-70E3-4C30-82BD-B7B9BC31CA5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +129,18 @@ Global
 		{CC6647D4-B66F-4CCF-A379-13C9E08B9C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC6647D4-B66F-4CCF-A379-13C9E08B9C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC6647D4-B66F-4CCF-A379-13C9E08B9C72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB7B846C-872D-4DB7-BEDD-1EE455023F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB7B846C-872D-4DB7-BEDD-1EE455023F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB7B846C-872D-4DB7-BEDD-1EE455023F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB7B846C-872D-4DB7-BEDD-1EE455023F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38407ADA-6918-4758-B691-16940962C5F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38407ADA-6918-4758-B691-16940962C5F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38407ADA-6918-4758-B691-16940962C5F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38407ADA-6918-4758-B691-16940962C5F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{672EB1DC-70E3-4C30-82BD-B7B9BC31CA5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{672EB1DC-70E3-4C30-82BD-B7B9BC31CA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{672EB1DC-70E3-4C30-82BD-B7B9BC31CA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{672EB1DC-70E3-4C30-82BD-B7B9BC31CA5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
