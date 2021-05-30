@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14.ConnectedComps", "14.Con
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15.MinPaths", "15.MinPaths\15.MinPaths.csproj", "{38407ADA-6918-4758-B691-16940962C5F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.NTasks", "16.NTasks\16.NTasks.csproj", "{672EB1DC-70E3-4C30-82BD-B7B9BC31CA5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16.NTasks", "16.NTasks\16.NTasks.csproj", "{672EB1DC-70E3-4C30-82BD-B7B9BC31CA5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.EulerianPath", "17.EulerianPath\17.EulerianPath.csproj", "{E7922069-3DE9-410A-ACA4-899AF5D3ACB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{672EB1DC-70E3-4C30-82BD-B7B9BC31CA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{672EB1DC-70E3-4C30-82BD-B7B9BC31CA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{672EB1DC-70E3-4C30-82BD-B7B9BC31CA5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7922069-3DE9-410A-ACA4-899AF5D3ACB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7922069-3DE9-410A-ACA4-899AF5D3ACB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7922069-3DE9-410A-ACA4-899AF5D3ACB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7922069-3DE9-410A-ACA4-899AF5D3ACB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
