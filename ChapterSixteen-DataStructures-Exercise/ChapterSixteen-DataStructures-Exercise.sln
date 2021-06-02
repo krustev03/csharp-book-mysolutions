@@ -5,23 +5,29 @@ VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.PrintInReverse", "02.PrintInReverse\02.PrintInReverse.csproj", "{AC760C83-04CA-4EB5-B2DE-9F197B2B7B9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SumAndAverageList", "01.SumAndAverageList\01.SumAndAverageList.csproj", "{5F4B8A1F-10F1-46D0-A1EB-8DCB81C9ED79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.SumAndAverageList", "01.SumAndAverageList\01.SumAndAverageList.csproj", "{5F4B8A1F-10F1-46D0-A1EB-8DCB81C9ED79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.AscendingOrder", "03.AscendingOrder\03.AscendingOrder.csproj", "{6204E5A9-5332-4F19-A526-474215252E75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.AscendingOrder", "03.AscendingOrder\03.AscendingOrder.csproj", "{6204E5A9-5332-4F19-A526-474215252E75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.EqualNumsSequence", "04.EqualNumsSequence\04.EqualNumsSequence.csproj", "{7A004E5C-37F2-46AD-B485-D25A2CCD26D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.EqualNumsSequence", "04.EqualNumsSequence\04.EqualNumsSequence.csproj", "{7A004E5C-37F2-46AD-B485-D25A2CCD26D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.RemoveAllNegNums", "05.RemoveAllNegNums\05.RemoveAllNegNums.csproj", "{571374EA-40DA-43E2-B0B9-AA6ED973CDC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.RemoveAllNegNums", "05.RemoveAllNegNums\05.RemoveAllNegNums.csproj", "{571374EA-40DA-43E2-B0B9-AA6ED973CDC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.RemoveOddNumCount", "06.RemoveOddNumCount\06.RemoveOddNumCount.csproj", "{7B2C6820-4CF4-423D-AB27-E4D7815A894C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.RemoveOddNumCount", "06.RemoveOddNumCount\06.RemoveOddNumCount.csproj", "{7B2C6820-4CF4-423D-AB27-E4D7815A894C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.CountOccurences", "07.CountOccurences\07.CountOccurences.csproj", "{05EF2913-5649-44A0-A130-1C18F19220AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.CountOccurences", "07.CountOccurences\07.CountOccurences.csproj", "{05EF2913-5649-44A0-A130-1C18F19220AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.MajorantFinder", "08.MajorantFinder\08.MajorantFinder.csproj", "{9C96C08B-A7F5-4B56-A7A4-049A1D5D134C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.MajorantFinder", "08.MajorantFinder\08.MajorantFinder.csproj", "{9C96C08B-A7F5-4B56-A7A4-049A1D5D134C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.QueueSequenceOne", "09.QueueSequenceOne\09.QueueSequenceOne.csproj", "{1E1FF470-F129-4E5A-B226-ABB19943C111}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.QueueSequenceOne", "09.QueueSequenceOne\09.QueueSequenceOne.csproj", "{1E1FF470-F129-4E5A-B226-ABB19943C111}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.QueueSequenceTwo", "10.QueueSequenceTwo\10.QueueSequenceTwo.csproj", "{F2E0CFE5-06F2-48DA-A3FA-0C4BC96777D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.QueueSequenceTwo", "10.QueueSequenceTwo\10.QueueSequenceTwo.csproj", "{F2E0CFE5-06F2-48DA-A3FA-0C4BC96777D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.DirTraverseBFS", "11.DirTraverseBFS\11.DirTraverseBFS.csproj", "{9643FDCE-7984-4716-BB94-B583BC7CB0A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.DirTraverseDFS", "12.DirTraverseDFS\12.DirTraverseDFS.csproj", "{77C688C4-D4D3-4249-A710-B137B1284F4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.Labyrinth", "13.Labyrinth\13.Labyrinth.csproj", "{8AD60583-AFCF-4F38-B3B5-4276B0DF9AB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +75,18 @@ Global
 		{F2E0CFE5-06F2-48DA-A3FA-0C4BC96777D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2E0CFE5-06F2-48DA-A3FA-0C4BC96777D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2E0CFE5-06F2-48DA-A3FA-0C4BC96777D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9643FDCE-7984-4716-BB94-B583BC7CB0A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9643FDCE-7984-4716-BB94-B583BC7CB0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9643FDCE-7984-4716-BB94-B583BC7CB0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9643FDCE-7984-4716-BB94-B583BC7CB0A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77C688C4-D4D3-4249-A710-B137B1284F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C688C4-D4D3-4249-A710-B137B1284F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C688C4-D4D3-4249-A710-B137B1284F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C688C4-D4D3-4249-A710-B137B1284F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AD60583-AFCF-4F38-B3B5-4276B0DF9AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD60583-AFCF-4F38-B3B5-4276B0DF9AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD60583-AFCF-4F38-B3B5-4276B0DF9AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD60583-AFCF-4F38-B3B5-4276B0DF9AB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
