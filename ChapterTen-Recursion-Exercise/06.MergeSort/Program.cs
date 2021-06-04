@@ -8,7 +8,7 @@ namespace _06.MergeSort
         {
             int[] arr = { 2, 3, 4, 1, 5 };
             Sort(arr, 0, arr.Length - 1);
-            Console.WriteLine("\nSorted array");
+            Console.WriteLine("Sorted array");
             for (int i = 0; i < arr.Length; i++)
             {
                 Console.Write(arr[i] + " ");
