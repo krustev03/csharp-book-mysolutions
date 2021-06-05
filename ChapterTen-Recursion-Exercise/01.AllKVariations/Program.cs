@@ -18,7 +18,7 @@ namespace _01.AllKVariations
         {
             if (currentLoop == n)
             {
-                PrintLoops();
+                PrintLoops(currentLoop);
                 return;
             }
 
