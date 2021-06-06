@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryClass", "DictionaryClass\DictionaryClass.csproj", "{1FC9F8CF-F073-4F3D-AF09-5242228B50E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CountOfOccurences", "01.CountOfOccurences\01.CountOfOccurences.csproj", "{AD8502FE-4A8C-4AEE-BE09-5C62A84F9972}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FC9F8CF-F073-4F3D-AF09-5242228B50E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC9F8CF-F073-4F3D-AF09-5242228B50E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC9F8CF-F073-4F3D-AF09-5242228B50E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC9F8CF-F073-4F3D-AF09-5242228B50E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD8502FE-4A8C-4AEE-BE09-5C62A84F9972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD8502FE-4A8C-4AEE-BE09-5C62A84F9972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD8502FE-4A8C-4AEE-BE09-5C62A84F9972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD8502FE-4A8C-4AEE-BE09-5C62A84F9972}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {259CE9BC-C118-4759-A2D6-C02BEA469D9B}
+	EndGlobalSection
+EndGlobal
