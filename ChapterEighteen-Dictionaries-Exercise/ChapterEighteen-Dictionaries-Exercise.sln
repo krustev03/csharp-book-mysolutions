@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryClass", "DictionaryClass\DictionaryClass.csproj", "{1FC9F8CF-F073-4F3D-AF09-5242228B50E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionaryClass", "DictionaryClass\DictionaryClass.csproj", "{1FC9F8CF-F073-4F3D-AF09-5242228B50E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CountOfOccurences", "01.CountOfOccurences\01.CountOfOccurences.csproj", "{AD8502FE-4A8C-4AEE-BE09-5C62A84F9972}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.CountOfOccurences", "01.CountOfOccurences\01.CountOfOccurences.csproj", "{AD8502FE-4A8C-4AEE-BE09-5C62A84F9972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.OddTimesNum", "02.OddTimesNum\02.OddTimesNum.csproj", "{A8F10ED3-EA62-48B4-9834-A26C8BFAA907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CountWords", "03.CountWords\03.CountWords.csproj", "{75EC51A7-5372-43F4-B4F7-9A12443D2EC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{AD8502FE-4A8C-4AEE-BE09-5C62A84F9972}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD8502FE-4A8C-4AEE-BE09-5C62A84F9972}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD8502FE-4A8C-4AEE-BE09-5C62A84F9972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F10ED3-EA62-48B4-9834-A26C8BFAA907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F10ED3-EA62-48B4-9834-A26C8BFAA907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F10ED3-EA62-48B4-9834-A26C8BFAA907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F10ED3-EA62-48B4-9834-A26C8BFAA907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75EC51A7-5372-43F4-B4F7-9A12443D2EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75EC51A7-5372-43F4-B4F7-9A12443D2EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75EC51A7-5372-43F4-B4F7-9A12443D2EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75EC51A7-5372-43F4-B4F7-9A12443D2EC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

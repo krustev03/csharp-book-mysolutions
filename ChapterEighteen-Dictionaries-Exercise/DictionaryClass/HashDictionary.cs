@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DictionaryClass
 {
-    public class HashDictionary<TKey, TValue> : IEnumerable<KeyValuePair<TKey, TValue>>
+    internal class HashDictionary<TKey, TValue> : IEnumerable<KeyValuePair<TKey, TValue>>
     {
         private const int DEFAULT_CAPACITY = 16;
         private const float DFAULT_LOAD_FACTOR = 0.75f;
