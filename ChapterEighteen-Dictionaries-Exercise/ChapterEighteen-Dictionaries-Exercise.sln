@@ -7,9 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionaryClass", "Dictiona
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.CountOfOccurences", "01.CountOfOccurences\01.CountOfOccurences.csproj", "{AD8502FE-4A8C-4AEE-BE09-5C62A84F9972}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.OddTimesNum", "02.OddTimesNum\02.OddTimesNum.csproj", "{A8F10ED3-EA62-48B4-9834-A26C8BFAA907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.OddTimesNum", "02.OddTimesNum\02.OddTimesNum.csproj", "{A8F10ED3-EA62-48B4-9834-A26C8BFAA907}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CountWords", "03.CountWords\03.CountWords.csproj", "{75EC51A7-5372-43F4-B4F7-9A12443D2EC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.CountWords", "03.CountWords\03.CountWords.csproj", "{75EC51A7-5372-43F4-B4F7-9A12443D2EC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.BusStation", "04.BusStation\04.BusStation.csproj", "{16A97693-A029-455E-9A13-A211DC4C8AC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SetOperations", "05.SetOperations\05.SetOperations.csproj", "{581285F5-1B07-4758-A190-CECFA88CEFD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.HappySubsequence", "06.HappySubsequence\06.HappySubsequence.csproj", "{358DA3D4-5E8E-4CE8-83C3-42FDADD0A54F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{75EC51A7-5372-43F4-B4F7-9A12443D2EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75EC51A7-5372-43F4-B4F7-9A12443D2EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75EC51A7-5372-43F4-B4F7-9A12443D2EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A97693-A029-455E-9A13-A211DC4C8AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A97693-A029-455E-9A13-A211DC4C8AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A97693-A029-455E-9A13-A211DC4C8AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A97693-A029-455E-9A13-A211DC4C8AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{581285F5-1B07-4758-A190-CECFA88CEFD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581285F5-1B07-4758-A190-CECFA88CEFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{581285F5-1B07-4758-A190-CECFA88CEFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581285F5-1B07-4758-A190-CECFA88CEFD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{358DA3D4-5E8E-4CE8-83C3-42FDADD0A54F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{358DA3D4-5E8E-4CE8-83C3-42FDADD0A54F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{358DA3D4-5E8E-4CE8-83C3-42FDADD0A54F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{358DA3D4-5E8E-4CE8-83C3-42FDADD0A54F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
