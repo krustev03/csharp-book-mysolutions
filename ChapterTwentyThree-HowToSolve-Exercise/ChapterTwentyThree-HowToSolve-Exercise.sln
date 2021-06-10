@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.AltSequence", "02.AltSequence\02.AltSequence.csproj", "{3CDF8F37-8BE4-4402-82DC-BAA684FF75F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.StreetMap", "03.StreetMap\03.StreetMap.csproj", "{08518F6A-C6B4-425D-8007-69D716B5273A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.StreetMap", "03.StreetMap\03.StreetMap.csproj", "{08518F6A-C6B4-425D-8007-69D716B5273A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.ConvexHull", "04.ConvexHull\04.ConvexHull.csproj", "{B11D49EA-1005-4800-A557-CB1DE02F893C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{08518F6A-C6B4-425D-8007-69D716B5273A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08518F6A-C6B4-425D-8007-69D716B5273A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08518F6A-C6B4-425D-8007-69D716B5273A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B11D49EA-1005-4800-A557-CB1DE02F893C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B11D49EA-1005-4800-A557-CB1DE02F893C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B11D49EA-1005-4800-A557-CB1DE02F893C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B11D49EA-1005-4800-A557-CB1DE02F893C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
